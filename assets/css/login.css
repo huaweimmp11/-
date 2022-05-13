@@ -10,7 +10,7 @@ body {
 
 .loginAndRegBox {
     width: 400px;
-    height: 310px;
+    /* height: 310px; */
     background-color: #fff;
     position: absolute;
     left: 50%;
@@ -38,10 +38,12 @@ body {
 
 .links a {
     font-size: 12px;
+    color: #4bb2ff;
 }
 
 .layui-form-item {
     position: relative;
+    margin: 26px 0;
 }
 
 .layui-icon {
@@ -52,8 +54,4 @@ body {
 
 .layui-input {
     padding-left: 32px;
-}
-
-.reg-box {
-    display: none;
 }
